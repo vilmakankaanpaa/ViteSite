@@ -1,9 +1,15 @@
-import Welcome from "./components/Welcome"
+import './App.css'
+function App() {
 
-export default function App() {
-return (
-<>
-<Welcome />
-</>
-)
+ return (
+  <div className="App">
+   <div className="navbar">
+    <ul>
+     <li>Home</li>
+     <li>Blog</li>
+    </ul>
+   </div>
+  </div>
+ )
 }
+export default App
